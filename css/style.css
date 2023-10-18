@@ -1,0 +1,26 @@
+:root{
+	--bg:#264653;
+	--bg2:#a3b18a;
+	--b:#e3d5ca;
+	--o:#e76f51;
+}
+
+.header, .hero, .body, .bar, .footer{
+	background-color: var(--bg);
+	margin-bottom: 20px;
+}
+
+.box{
+	min-height: 80px;
+	margin: 15px 0;
+	background-color: var(--b);
+}
+
+.box2{
+	min-height: 80px;
+	background-color: var(--bg2);
+}
+
+.red{
+	background-color: var(--o);
+}
